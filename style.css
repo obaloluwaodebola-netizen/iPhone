@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    position: sticky;
+}
+
+.header div:nth-child(1) {
+    margin-left: 24%;
+}
+
+.main-nav {
+    padding: 0.7% 6%;
+    display: flex;
+    gap: 130px;
+}
+
+.main-nav a{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.Iphone {
+    position: relative;
+    display: block;
+}
+
+.iPhone {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 7%;
+    left: 41.5%;
+    text-align: center;
+}
+
+.iPhone h2 {
+    color: #1D1D1F;
+    font-size: 55px;
+    font-weight: 550;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.iPhone p {
+    /* border: 1px solid yellow; */
+    color: #1D1D1F;
+    font-size: 26px;
+    font-weight: 545;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.iPhone a {
+    border: 1px solid #0076DF;
+    background-color: #0076DF;
+    color: #FFFFFF;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    padding: 11px 23px;
+    text-decoration: none;
+}
+
+.Picture {
+    position: absolute;
+}
+
+.Mac {
+    position: relative;
+    display: block;
+    margin: 10px 0;
+}
+
+.MacBook {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    text-align: center;
+}
+
+.MacBook h2 {
+    color: #1D1D1F;
+    font-size: 53px;
+    font-weight: 550;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.MacBook p {
+    color: #1D1D1F;
+    font-size: 28px;
+    font-weight: 545;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.MacBook a {
+    border: 1px solid #0076DF;
+    background-color: #0076DF;
+    color: #FFFFFF;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    padding: 11px 23px;
+    text-decoration: none;
+}
+
+.Macbook pic {
+    position: absolute;
+}
